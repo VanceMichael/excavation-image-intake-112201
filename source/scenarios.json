@@ -1,0 +1,723 @@
+{
+  "main": [
+    {
+      "tick": 1,
+      "feeds": {
+        "/index": {
+          "data": {
+            "tiles": [
+              {
+                "tile": "A1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层2",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [
+                  [
+                    10,
+                    1,
+                    15,
+                    4
+                  ]
+                ],
+                "pixelAxes": "normal",
+                "asset": "/plates/A1"
+              },
+              {
+                "tile": "B1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层2",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [],
+                "pixelAxes": "normal",
+                "asset": "/plates/B1"
+              },
+              {
+                "tile": "C1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层2",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [],
+                "pixelAxes": "mirror-x",
+                "asset": "/plates/C1"
+              },
+              {
+                "tile": "D1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层3",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [],
+                "pixelAxes": "normal",
+                "asset": "/plates/D1"
+              }
+            ],
+            "limit": 2,
+            "void": []
+          }
+        },
+        "/survey": {
+          "data": {
+            "controls": [
+              {
+                "tile": "A1",
+                "pairs": [
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      4,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      10
+                    ],
+                    [
+                      0,
+                      10
+                    ]
+                  ]
+                ],
+                "errorMm": 0.2
+              }
+            ],
+            "ties": [
+              {
+                "from": "A1",
+                "to": "B1",
+                "pairs": [
+                  [
+                    [
+                      9,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      10,
+                      2
+                    ],
+                    [
+                      2,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      9,
+                      5
+                    ],
+                    [
+                      1,
+                      5
+                    ]
+                  ]
+                ],
+                "errorMm": 0.15
+              },
+              {
+                "from": "B1",
+                "to": "C1",
+                "pairs": [
+                  [
+                    [
+                      10,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      11,
+                      2
+                    ],
+                    [
+                      2,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      10,
+                      5
+                    ],
+                    [
+                      1,
+                      5
+                    ]
+                  ]
+                ],
+                "errorMm": 0.15
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "tick": 2,
+      "feeds": {
+        "/index": {
+          "data": {
+            "tiles": [
+              {
+                "tile": "A1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层2",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [
+                  [
+                    10,
+                    1,
+                    15,
+                    4
+                  ]
+                ],
+                "pixelAxes": "normal",
+                "asset": "/plates/A1"
+              },
+              {
+                "tile": "B2",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层2",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [],
+                "pixelAxes": "normal",
+                "asset": "/plates/B2"
+              },
+              {
+                "tile": "C1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层2",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [],
+                "pixelAxes": "mirror-x",
+                "asset": "/plates/C1"
+              },
+              {
+                "tile": "D1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层3",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [],
+                "pixelAxes": "normal",
+                "asset": "/plates/D1"
+              }
+            ],
+            "limit": 2,
+            "void": [
+              "B1"
+            ]
+          }
+        },
+        "/survey": {
+          "data": {
+            "controls": [
+              {
+                "tile": "A1",
+                "pairs": [
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      4,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      10
+                    ],
+                    [
+                      0,
+                      10
+                    ]
+                  ]
+                ],
+                "errorMm": 0.2
+              },
+              {
+                "tile": "B2",
+                "pairs": [
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      9,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      13,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      10
+                    ],
+                    [
+                      9,
+                      10
+                    ]
+                  ]
+                ],
+                "errorMm": 0.2
+              }
+            ],
+            "ties": [
+              {
+                "from": "A1",
+                "to": "B2",
+                "pairs": [
+                  [
+                    [
+                      10,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      11,
+                      2
+                    ],
+                    [
+                      2,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      10,
+                      5
+                    ],
+                    [
+                      1,
+                      5
+                    ]
+                  ]
+                ],
+                "errorMm": 0.15
+              },
+              {
+                "from": "B2",
+                "to": "C1",
+                "pairs": [
+                  [
+                    [
+                      9,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      10,
+                      2
+                    ],
+                    [
+                      2,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      9,
+                      5
+                    ],
+                    [
+                      1,
+                      5
+                    ]
+                  ]
+                ],
+                "errorMm": 0.15
+              },
+              {
+                "from": "A1",
+                "to": "C1",
+                "pairs": [
+                  [
+                    [
+                      13,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      14,
+                      2
+                    ],
+                    [
+                      2,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      13,
+                      5
+                    ],
+                    [
+                      1,
+                      5
+                    ]
+                  ]
+                ],
+                "errorMm": 0.15
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "tick": 3,
+      "feeds": {
+        "/index": {
+          "data": {
+            "tiles": [
+              {
+                "tile": "A1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层2",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [
+                  [
+                    10,
+                    1,
+                    15,
+                    4
+                  ]
+                ],
+                "pixelAxes": "normal",
+                "asset": "/plates/A1"
+              },
+              {
+                "tile": "B2",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层2",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [],
+                "pixelAxes": "normal",
+                "asset": "/plates/B2"
+              },
+              {
+                "tile": "C1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层2",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [],
+                "pixelAxes": "mirror-x",
+                "asset": "/plates/C1"
+              },
+              {
+                "tile": "D1",
+                "wall": "东",
+                "pit": "T5",
+                "stratum": "层3",
+                "available": [
+                  0,
+                  0,
+                  16,
+                  12
+                ],
+                "pixelSizeMm": 1,
+                "obscured": [],
+                "pixelAxes": "normal",
+                "asset": "/plates/D1"
+              }
+            ],
+            "limit": 1,
+            "void": [
+              "B1"
+            ]
+          }
+        },
+        "/survey": {
+          "data": {
+            "controls": [
+              {
+                "tile": "A1",
+                "pairs": [
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      4,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      10
+                    ],
+                    [
+                      0,
+                      10
+                    ]
+                  ]
+                ],
+                "errorMm": 0.2
+              },
+              {
+                "tile": "B2",
+                "pairs": [
+                  [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      9,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      4,
+                      0
+                    ],
+                    [
+                      13,
+                      0
+                    ]
+                  ],
+                  [
+                    [
+                      0,
+                      10
+                    ],
+                    [
+                      9,
+                      10
+                    ]
+                  ]
+                ],
+                "errorMm": 0.2
+              }
+            ],
+            "ties": [
+              {
+                "from": "A1",
+                "to": "B2",
+                "pairs": [
+                  [
+                    [
+                      10,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      11,
+                      2
+                    ],
+                    [
+                      2,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      10,
+                      5
+                    ],
+                    [
+                      1,
+                      5
+                    ]
+                  ]
+                ],
+                "errorMm": 0.15
+              },
+              {
+                "from": "B2",
+                "to": "C1",
+                "pairs": [
+                  [
+                    [
+                      9,
+                      1
+                    ],
+                    [
+                      1,
+                      1
+                    ]
+                  ],
+                  [
+                    [
+                      10,
+                      2
+                    ],
+                    [
+                      2,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      9,
+                      5
+                    ],
+                    [
+                      1,
+                      5
+                    ]
+                  ]
+                ],
+                "errorMm": 0.15
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

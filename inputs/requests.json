@@ -1,0 +1,28 @@
+[
+  {
+    "pit": "T5",
+    "wall": "东",
+    "stratum": "层2",
+    "windowMm": [
+      6,
+      0,
+      27,
+      9
+    ],
+    "maxMmPerPixel": 1,
+    "toleranceMm": 0.65
+  },
+  {
+    "pit": "T5",
+    "wall": "东",
+    "stratum": "层3",
+    "windowMm": [
+      0,
+      0,
+      10,
+      9
+    ],
+    "maxMmPerPixel": 1,
+    "toleranceMm": 0.65
+  }
+]
